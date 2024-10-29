@@ -8,13 +8,8 @@
 <body>
     <h1>Juan José Rivera Montes</h1>
     <h2>Pepe</h2>
-    <?php
-    
-        date_default_timezone_get('Europe/Madrid');
-        echo date('H:i:s');
-    ?>
 
-    asereje
+    
     <div id="relojCliente"></div>
     
     <form action="insertar.php" method="POST">
@@ -28,5 +23,10 @@
         
     </form>
     <script src="js/reloj.js"></script>
+    <?php
+    
+        date_default_timezone_get('Europe/Madrid');
+        echo date('H:i:s');
+    ?>
 </body>
 </html>
