@@ -8,6 +8,7 @@
 <body>
     <h1>Juan José Rivera Montes</h1>
     <?php
+    
         date_default_timezone_get('Europe/Madrid');
         echo date('H:i:s');
     ?>
