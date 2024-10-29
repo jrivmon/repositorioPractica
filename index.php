@@ -7,6 +7,7 @@
 </head>
 <body>
     <h1>Juan José Rivera Montes</h1>
+    <h2>Pepe</h2>
     <?php
     
         date_default_timezone_get('Europe/Madrid');
