@@ -12,6 +12,8 @@
         date_default_timezone_get('Europe/Madrid');
         echo date('H:i:s');
     ?>
+
+    asereje
     <div id="relojCliente"></div>
     
     <form action="insertar.php" method="POST">
