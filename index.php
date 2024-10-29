@@ -9,6 +9,10 @@
     <h1>Juan José Rivera Montes</h1>
     
     <div id="relojCliente"></div>
+    <?php
+        date_default_timezone_set('Europe/Madrid');
+        echo date('H:i:s');
+    ?>
     
     <form action="insertar.php" method="POST">
         <label for="nombre">Nombre:</label>
@@ -21,9 +25,5 @@
         
     </form>
     <script src="js/reloj.js"></script>
-    <?php
-        date_default_timezone_set('Europe/Madrid');
-        echo date('H:i:s');
-    ?>
 </body>
 </html>

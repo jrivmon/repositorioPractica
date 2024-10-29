@@ -1,8 +1,8 @@
 <?php
-    $servername = "prueba"; 
+    $servername = "localhost"; 
     $username = "merubime"; //Aquí tienes que poner tu usuario        
     $password = "merubime"; //Aquí tienes que poner tu pass            
-    $dbname = "merubime"; //Aquí tienes que poner el nombre de tu BD      
+    $dbname = "prueba"; //Aquí tienes que poner el nombre de tu BD      
 
     // Crear conexión con la base de datos
     $conn = new mysqli($servername, $username, $password, $dbname);
