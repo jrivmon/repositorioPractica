@@ -7,7 +7,7 @@
 </head>
 <body>
     <h1>Juan José Rivera Montes</h1>
-    <h2>hola</h2>
+    
     <div id="relojCliente"></div>
     <?php
         date_default_timezone_set('Europe/Madrid');
