@@ -8,7 +8,7 @@
 <body>
     <h1>Juan José Rivera Montes</h1>
     <h2>Pepe</h2>
-
+    hola
     
     <div id="relojCliente"></div>
     
