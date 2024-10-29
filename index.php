@@ -7,8 +7,6 @@
 </head>
 <body>
     <h1>Juan José Rivera Montes</h1>
-    <h2>Pepe</h2>
-    hola
     
     <div id="relojCliente"></div>
     
@@ -24,8 +22,7 @@
     </form>
     <script src="js/reloj.js"></script>
     <?php
-    
-        date_default_timezone_get('Europe/Madrid');
+        date_default_timezone_set('Europe/Madrid');
         echo date('H:i:s');
     ?>
 </body>
